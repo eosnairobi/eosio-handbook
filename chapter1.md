@@ -39,32 +39,30 @@ CMakeLists.txt  eosio_build.sh      libraries   tests
 CMakeModules    eosio_install.sh    LICENSE     tools
 contracts       eosio_uninstall.sh  plugins     tutorials
 data            eosio.version.in    programs    unittests
-debian          err.txt             README.md
+debian          README.md
 Docker          externals           scripts
 docs            HEADER              testnet.md
 ```
 
-In this step, we are interested in two scripts: 
+In this step, we are interested in two scripts:
 
 ```
-eosio_build.sh 
+eosio_build.sh
 ```
 
-and 
+and
 
 ```
 eosio_install.sh
 ```
 
-The `eosio_build.sh` script does exactly what the name suggests: it is an automated build script that makes it easy for us to compile eos. 
+The `eosio_build.sh` script does exactly what the name suggests: it is an automated build script that makes it easy for us to compile eos.
 
-Since it is executable, \(if not, just run `sudo chmod +x eosio`_`build.sh`\) we _run
+Since it is executable, \(if not, just run `sudo chmod +x eosio`\_`build.sh`\) we \_run
 
 ```bash
 shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
 ```
 
 This will build eos and shall install any missing but required dependency.
-
-
 
