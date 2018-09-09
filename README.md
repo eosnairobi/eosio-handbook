@@ -1,3 +1,24 @@
-# My Awesome Book
+# Basics of EOSIO
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+# EOS Smart Contracts
+
+What is a _**smart contract**_?
+
+**Structure** of a smart contract.
+
+Building a simple smart contract - **The Hello World**.
+
+Basic Smart contracts.
+
+Advanced Smart Contracts.
+
+
+
+# Plugins - A focus on mongodb\_plugin
+
+What is _**Mongo DB**_?
+
+Configure an instance of _**Mongo DB**_, and _**Studio 3T**_.
+
+Configuring _**Nodeos**_ + _**mongodb\_plugin **_+ _**mongo\_db**_
+
