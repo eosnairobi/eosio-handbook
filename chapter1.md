@@ -22,7 +22,7 @@ If you follow the tutorial on [developers.eos.io](https://developers.eos.io "EOS
 
 **Step 3. Build EOS**
 
-If all went smoothly on step 2, you should be able to build _**eos **_successfully in this step.
+If all went smoothly on step 2, you should be able to build \_**eos **\_successfully in this step.
 
 Navigate to the folder where you have cloned eos.
 
@@ -42,8 +42,29 @@ data            eosio.version.in    programs    unittests
 debian          err.txt             README.md
 Docker          externals           scripts
 docs            HEADER              testnet.md
+```
+
+In this step, we are interested in two scripts: 
 
 ```
+eosio_build.sh 
+```
+
+and 
+
+```
+eosio_install.sh
+```
+
+The `eosio_build.sh` script does exactly what the name suggests: it is an automated build script that makes it easy for us to compile eos. 
+
+Since it is executable, \(if not, just run `sudo chmod +x eosio`_`build.sh`\) we _run
+
+```bash
+shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
+```
+
+This will build eos and shall install any missing but required dependency.
 
 
 
