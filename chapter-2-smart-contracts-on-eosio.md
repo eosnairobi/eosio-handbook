@@ -12,9 +12,7 @@ Later in the chapter, we shall dissect through some slightly more complex Smart 
 
 Borrowing from the definition of real-world contracts, we get to understand that a contract is an agreement that governs outcomes of actions, given a set of inputs.
 
-Analogy 1.
+_**Analogy 1.**_
 
 An EOSIO Smart contract, thence, is software that has been compiled in a format that is acceptable, executable and retrievable by EOS nodes. Just as the name suggests, EOSIO Smart contracts borrow from the structure of traditional contracts, only that in the case of EOS Smart Contracts, the actions, parameters, data structures and the code that implements these aforementioned components are defined by the Smart Contract.
-
-
 
