@@ -14,5 +14,13 @@ Borrowing from the definition of real-world contracts, we get to understand that
 
 _**Analogy 1.**_
 
-An EOSIO Smart contract, thence, is software that has been compiled in a format that is acceptable, executable and retrievable by EOS nodes. Just as the name suggests, EOSIO Smart contracts borrow from the structure of traditional contracts, only that in the case of EOS Smart Contracts, the actions, parameters, data structures and the code that implements these aforementioned components are defined by the Smart Contract.
+An EOSIO Smart contract, thence, is _**software**_ that has been _**compiled**_ in a _**format that is acceptable, executable and retrievable**_ by EOS nodes. Just as the name suggests, EOSIO Smart contracts borrow from the structure of traditional contracts, only that in the case of EOS Smart Contracts, the _**actions, parameters, data structures and the code**_ that implements these aforementioned components are defined by the Smart Contract. All EOSIO Smart contracts are accompanied by Ricardian Contracts. We shall look at what Ricardian Contracts are shortly.
+
+_**Analogy 2.**_
+
+A smart contract in EOS could be described as a collection of actions \(steps that modify state\) and tables \(collections of state\).
+
+They are analogous to applications, bound to identities \(each smart contract is associated to an account\), can be executed asynchronously and generate transactions.
+
+
 
