@@ -24,3 +24,13 @@ They are analogous to applications, bound to identities \(each smart contract is
 
 
 
+## Ricardian Contracts Vs Smart Contracts
+
+A Smart Contract is a machine readable set of instructions that organizes and controls the arrival of events, and the initiation of actions. A Ricardian Contract is a document that outlines the intentions and the actions that will be undertaken. 
+
+The **Ricardian Contract is the best effort to record the agreement**, and the **smart contract is the execution of said agreement.**
+
+
+
+.
+
