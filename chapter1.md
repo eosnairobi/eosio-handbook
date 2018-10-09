@@ -66,3 +66,5 @@ shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
 
 This will build eos and shall install any missing but required dependency.
 
+
+
