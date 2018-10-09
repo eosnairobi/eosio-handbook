@@ -1,4 +1,4 @@
-# Basic Setup Instructions
+# Basic Setup Instructions4
 
 _This is a step by step walk through on how to clone, build and run a single node on your machine, handling all the small issues you may face along the way._
 
@@ -65,6 +65,14 @@ shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
 ```
 
 This will build eos and shall install any missing but required dependency.
+
+
+
+## Alternative Way - Let's go Docker!
+
+As usual, not everyone will have 8 GBs of RAM. If youre in this category, worry not. 
+
+Just make sure you have docker installed, and you will be on your sweet way to building and testing smart contracts in EOS.
 
 
 
