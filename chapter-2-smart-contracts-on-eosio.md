@@ -22,15 +22,19 @@ A smart contract in EOS could be described as a collection of actions \(steps th
 
 They are analogous to applications, bound to identities \(each smart contract is associated to an account\), can be executed asynchronously and generate transactions.
 
-
-
 ## Ricardian Contracts Vs Smart Contracts
 
-A Smart Contract is a machine readable set of instructions that organizes and controls the arrival of events, and the initiation of actions. A Ricardian Contract is a document that outlines the intentions and the actions that will be undertaken. 
+A Smart Contract is a machine readable set of instructions that organizes and controls the arrival of events, and the initiation of actions. A Ricardian Contract is a document that outlines the intentions and the actions that will be undertaken.
 
 The **Ricardian Contract is the best effort to record the agreement**, and the **smart contract is the execution of said agreement.**
 
+## Structure of an EOSIO Smart Contract
+
+EOSIO Smart Contracts are composed of actions and data structures.
+
+The data structures store the state of the blockchain, whereas the actions modify these particular states.
+
+Actions accept parameters as laid out in the smart contract.
 
 
-.
 
