@@ -72,3 +72,7 @@ As usual, not everyone will have 8 GBs of RAM. If youre in this category, worry 
 
 Just make sure you have docker installed, and you will be on your sweet way to building and testing smart contracts in EOS.
 
+So, assuming you have set up docker, let's get started:
+
+
+
