@@ -74,5 +74,12 @@ Just make sure you have docker installed, and you will be on your sweet way to b
 
 So, assuming you have set up docker, let's get started:
 
+1. Pull the eosio docker image`docker pull eosio/eos:v1.4.0`
+2. Boot up the node with :
+
+`docker run --name CONTAINER_NAME --publish NODEOSPORT:NODEOSPORT --publish 127.0.0.1:WALLETPORT:WALLETPORT --volume CONTRACTS_DIR:CONTRACTS_DIR --detach eosio/eos:v1.4.0  /bin/bash -c "keosd --http-server-address=0.0.0.0:5555 & exec nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::chain_api_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --plugin eosio::http_plugin -d /mnt/dev/data --config-dir /mnt/dev/config --http-server-address=0.0.0.0:NODEOSPORT --access-control-allow-origin=* --contracts-console --http-validate-host=false --filter-on='*'"`
+
+PS: Make sure to substitute the NODEOSPORT variables with a preferred port value, i.e 8888, as well as the WALLETPORT with an appropriate port. As for the CONTRACTS\_DIR, replace it with the absolute path to the directory where the code for your smart contract shall reside.
+
 
 
