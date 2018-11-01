@@ -12,13 +12,11 @@ Just be patient, this may take a while.
 
 **Step 2. Checkout the appropriate Tag**
 
-If you follow the tutorial on [developers.eos.io](https://developers.eos.io "EOSIO Developers&apos; Guide"), you will have to checkout `v1.2.4`. In this tutorial, we start with the same tag \(`v1.2.4`, but we shall do another one soon enough\).
+If you follow the tutorial on [developers.eos.io](https://developers.eos.io "EOSIO Developers&apos; Guide"), you will have to checkout `v1.4.2`. In this tutorial, we start with the same tag \(`v1.2.4`, but we shall do another one soon enough\).
 
-* [x] `git checkout v1.2.4`
+* [x] `git checkout v1.4.2`
 
-* [x] You may bump into an error, with Git complaining that your `libraries/fc` folder would be overwritten. You can use the conventional way to solve this, but for me, I just deleted the damn `libraries/fc` folder with `rm -rf libraries/fc`
-
-* [x] So now try git checkout _**v1.2.4**_. You may \[definitely\] bump into another issue, but running this will fix`git submodule update --init  --recursive`
+* [x] So now try git checkout _**v1.4.2**_. You may \[definitely\] bump into another issue, but running this will fix`git submodule update --init  --recursive`
 
 **Step 3. Build EOS**
 
@@ -58,7 +56,7 @@ eosio_install.sh
 
 The `eosio_build.sh` script does exactly what the name suggests: it is an automated build script that makes it easy for us to compile eos.
 
-Since it is executable, \(if not, just run `sudo chmod +x eosio`\_`build.sh`\) we \_run
+Since it is executable, \(if not, just run `sudo chmod +x eosio_build.sh`\) we run
 
 ```bash
 shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
@@ -66,13 +64,11 @@ shalomz@shalomz ~/Projects/EOS/eos $ sudo ./eosio_build.sh
 
 This will build eos and shall install any missing but required dependency.
 
-
+After that, run the install script with `sudo ./eosio_install.sh`
 
 ## Alternative Way - Let's go Docker!
 
-As usual, not everyone will have 8 GBs of RAM. If youre in this category, worry not. 
+As usual, not everyone will have 8 GBs of RAM. If youre in this category, worry not.
 
 Just make sure you have docker installed, and you will be on your sweet way to building and testing smart contracts in EOS.
-
-
 
